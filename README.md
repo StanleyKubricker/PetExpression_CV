@@ -8,7 +8,7 @@ There are inherent biases in the dataset which also pose issues. For example, a 
 
 The dataset contains 4 labels, (which have been balanced via data augmentation) meaning that any accuracy scores >25% should be considered to be statistically significant.
 
-A baseline neural network ( parameters) was trained and achieved a test accuracy score of 23.7%. This is approximately the same as the accuracy score we would expect from randomly assigning classifications to the images, therefore demonstrating that the model is unable to successfully classify the images in the dataset.
+A baseline neural network (14,988,996 parameters) was trained and achieved a test accuracy score of 23.7%. This is approximately the same as the accuracy score we would expect from randomly assigning classifications to the images, therefore demonstrating that the model is unable to successfully classify the images in the dataset.
 
 Subsequently, a larger transfer-learning based model (50,174,724 parameters) which utilises the ResNet50V2 pre-trained convolutional base was trained and achieved a test accuracy score of 44.74%. This represents a marked improvement and a statistically significant result, whilst still highlighting the difficulty of the classification task.
 
